@@ -1,9 +1,9 @@
-import { NextConfig } from "next";
 import withPWA from "next-pwa";
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  webpack: (config: any) => { // Add `any` type explicitly
+  webpack: (config) => {
     return config;
   },
 };
