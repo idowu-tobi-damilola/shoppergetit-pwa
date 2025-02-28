@@ -1,3 +1,5 @@
-const withPWA = require("./next-pwa.config");
+import withPWA from "./next-pwa.config";
 
-module.exports = withPWA({});
+const nextConfig = withPWA({});
+
+export default nextConfig;
