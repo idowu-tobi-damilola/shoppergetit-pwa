@@ -18,4 +18,166 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.call-to-action, h2 {
+  margin-bottom: 10px !important;
+}
+
+/* --- nav --- */
+.navigator {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.nav-left {
+  padding-left: 20px !important; /* Adjust padding as needed */
+}
+
+.nav-right {
+  padding-right: 20px !important; /* Adjust padding as needed */
+}
+
+.buy-btn-nav {
+  background-color: #B63B56;
+  font-family: Comfortaa!important;
+}
+
+.border-line-active {
+  opacity: 1!important;
+  background-color: #C67250!important;
+}
+
+.rounded-lg-btn-google {
+  box-shadow: none !important;
+  border-color: #000 !important;
+  border-radius: 80px !important;
+  margin-bottom: 30px !important;
+}
+
+
+.proceed-btn {
+  border-radius: 1.5rem !important;
+}
+
+.shopper-btn {
+
+  background-color: #B63B56!important;
+}
+
+.rounded {
+  border-radius: 1.5rem!important;
+}
+
+.login-content-input {
+  margin-bottom: 12px;
+  border-color: #000;
+}
+
+.btn-process {
+  border-radius: 2.5rem!important;
+}
+
+.dmc {
+  padding-left: 5% !important;
+  padding-top: 18% !important;
+}
+
+/* --- Mobile Styles --- */
+@media (max-width: 768px) {
+  /* Move the main content downward on mobile */
+  .main-content {
+    padding-top: 420px !important; /* Adjust downward */
+  }
+
+  /* Move "Welcome back" to the top after the background image */
+  .welcome-text {
+    position: absolute;
+    top: 260px; /* Move below the background */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #171717;
+    z-index: 2;
+  }
+
+  /* Adjust background image size for mobile */
+  .background-image {
+    width: 90% !important;  /* Reduce width */
+    height: 250px !important; /* Adjust height */
+    top: 100px !important; /* Move up slightly */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .contain-full {
+    padding: 2.5rem!important;
+  }
+
+  .p-6 {
+    padding-top: 0% !important;
+    box-shadow: none !important;
+  }
+
+  .m-lg {
+    display: none;
+  }
+
+  .bgc {
+    top: 20%!important;
+  }
+
+  .call-to-action, h2 {
+    display: none !important;
+  }
+
+  .rounded {
+    border-radius: 0.5rem!important;
+    width: 100%;
+  }
+
+  .intro-mobile {
+    position: absolute;
+    top: 14%;
+    padding-left: 26px;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+
+  .navigator {
+    padding-left: 23px !important;
+    padding-right: 15px !important;
+  }
+
+
+  .btn-process {
+    border-radius: 2.5rem!important;
+  }
+}
+
+
+/* Navigation padding adjustments */
+.nav-left {
+  padding-left: 20px !important;
+}
+
+.nav-right {
+  padding-right: 20px !important;
+}
+
+/* Desktop Main Content */
+.dmc {
+  padding-left: 5% !important;
+  padding-top: 19% !important;
+}
+
+/* --- Mobile Styles --- */
+@media (max-width: 768px) {
+  .dmc {
+    padding-left: 0% !important;
+    padding-top: 355px !important;
+  }
 }
