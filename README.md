@@ -6,4 +6,10 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="" target="_blank">
+    <img src="https://i.imgur.com/pD5KZKj.jpeg" alt="Project Thumbnail Mobile device" width="100%" /> 
+  </a>
+</p>
+
 
